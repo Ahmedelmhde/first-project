@@ -198,8 +198,10 @@ video.post-video {
 .line-divider {
   background: none;
   height: 1px;
-  border-top: 1px solid #e6e6e6;
-  margin-bottom: 10px;
+  border-top: 1px solid #d5cdcdd6;
+  
+  width: 80%;
+  margin: 11px auto;
 }
 .profile-link {
   font-weight: 600;
@@ -224,7 +226,7 @@ a {
   margin-bottom: 10px;
   display: flex;
 }
-.Add-follow .user {
+.Add-follow  {
   color: #8dc63f;
 }
 .follow-user div {
@@ -245,11 +247,17 @@ a {
 
 .messages-body {
   max-height: 420px;
+  padding: 0 14px;
   overflow: auto;
+}
+.messages-body p{
+  margin-bottom: auto;
 }
 
   .messages-body li {
-  margin-left: 20px;
+    
+    transition: transform 1.3s ease-out,-webkit-transform 1.3s ease-out;
+    margin-left: 20px;
 }
 
 .user {
