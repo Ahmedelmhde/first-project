@@ -236,6 +236,9 @@ a {
   font-size: 18px;
   margin-bottom: 18px;
 }
+.follow-user h5 a{
+  /* color: #27aae1; */
+}
 
 .messag {
   width: 500px;
